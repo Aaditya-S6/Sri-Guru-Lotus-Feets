@@ -16,6 +16,8 @@ audio {
 p {
     text-align: justify;
     font-weight: 300;
+    font-size: larger;
+    font-style: oblique;
 }
 main {
     max-width: 1400px;
