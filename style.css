@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(253, 175, 8);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: brown;
+}
+audio {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+p {
+    text-align: justify;
+}
+main {
+    max-width: 1400px;
+    margin:10px auto;
+    padding: 8%;
+    padding-top: 10px;
+    /* Stylish Page Border */
+    border: 5px solid #5e2900; /* Set the border width and color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    background-image: url(FinalBg.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+  }
+h2{
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: x-large;
+}
+p{
+    font-style: inherit;
+}
+img{
+    max-width: 100%;
+}
+  
+  audio {
+    /* Adjust the width of the audio player */
+    width: 100%;
+  
+    /* Custom colors for the audio controls */
+    background-color: #fff6f6;
+    color: #fff;
+  }
+  
+  /* Styling the audio controls buttons */
+  audio::-webkit-media-controls-panel {
+    background-color: #edecec;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Styling the progress bar */
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  audio::-webkit-media-controls-timeline,
+  audio::-webkit-media-controls-seek-back-button,
+  audio::-webkit-media-controls-seek-forward-button {
+    background-color: #007bff; /* Change the progress bar color */
+  }
+  
+  /* Styling the volume control slider */
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #007bff; /* Change the volume slider color */
+  }
+  
+  /* Styling the volume control thumb */
+  audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
+    background-color: #fff; /* Change the volume control thumb color */
+  }
