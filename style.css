@@ -15,20 +15,21 @@ audio {
 }
 p {
     text-align: justify;
-    font-weight: 300;
-    font-size: larger;
+    font-weight: 400;
+    font-size: x-large;
     font-style: oblique;
 }
 main {
     max-width: 1400px;
-    margin:10px auto;
+    margin:4px auto;
     padding: 8%;
     padding-top: 10px;
     /* Stylish Page Border */
     border: 5px solid #5e2900; /* Set the border width and color */
     border-radius: 20px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
-    background-image: url(FinalBg.jpg);
+    background-image: url(BackGround.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
     background-repeat: repeat-y;
     background-size: contain;
   }
@@ -40,6 +41,7 @@ h2{
 }
 p{
     font-style: inherit;
+    background-color: rgb(255, 255, 255,0.7);
 }
 img{
     max-width: 100%;
