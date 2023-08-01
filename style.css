@@ -25,7 +25,7 @@ main {
     border: 5px solid #5e2900; /* Set the border width and color */
     border-radius: 20px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
-    background-image: url(FinalBg1.jpg);
+    background-image: url(FinalBg.jpg);
     background-repeat: repeat-y;
     background-size: contain;
   }
