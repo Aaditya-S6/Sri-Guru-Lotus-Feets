@@ -57,22 +57,4 @@ img{
     color: #fff;
     border: none;
   }
-  
-  /* Styling the progress bar */
-  audio::-webkit-media-controls-current-time-display,
-  audio::-webkit-media-controls-time-remaining-display,
-  audio::-webkit-media-controls-timeline,
-  audio::-webkit-media-controls-seek-back-button,
-  audio::-webkit-media-controls-seek-forward-button {
-    background-color: #007bff; /* Change the progress bar color */
-  }
-  
-  /* Styling the volume control slider */
-  audio::-webkit-media-controls-volume-slider {
-    background-color: #007bff; /* Change the volume slider color */
-  }
-  
-  /* Styling the volume control thumb */
-  audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
-    background-color: #fff; /* Change the volume control thumb color */
-  }
+ 
